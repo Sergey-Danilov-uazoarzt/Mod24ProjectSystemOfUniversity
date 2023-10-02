@@ -7,10 +7,10 @@ public class Main {
         University rgmu = new University("1", "Российский государственный медицинский университет",
                 "РГМУ", 1906, StudyProfile.MEDICINE);
 
-        Student student = new Student("Иванов Иван Иванович", "1",
+        Student studentIvanov = new Student("Иванов Иван Иванович", "1",
                 6, 4.5f);
 
         System.out.println(rgmu);
-        System.out.println(student);
+        System.out.println(studentIvanov);
   }
 }

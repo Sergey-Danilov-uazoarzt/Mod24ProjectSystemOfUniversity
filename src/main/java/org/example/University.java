@@ -60,7 +60,8 @@ public class University {
         StringBuilder builder = new StringBuilder();
         builder.append("Университет, номер университета: ").append(id).append("; полное название: ")
                 .append(fullName).append("; краткое название: ").append(shortName).append("; год основания: ")
-                .append(yearOfFoundation).append("; основной профиль образования: ").append(mainProfile);
+                .append(yearOfFoundation).append("; основной профиль образования: ")
+                .append(mainProfile.getProfileName());
         return builder.toString();
     }
 
