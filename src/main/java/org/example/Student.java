@@ -2,16 +2,20 @@ package org.example;
 
 public class Student {
 
-    String fullName;
-    String universityId;
-    int currentCourseNumber;
-    float avgExamScore;
+    private String fullName;
+    private String universityId;
+    private int currentCourseNumber;
+    private float avgExamScore;
 
     public Student(String fullName, String universityId, int currentCourseNumber, float avgExamScore) {
         this.fullName = fullName;
         this.universityId = universityId;
         this.currentCourseNumber = currentCourseNumber;
         this.avgExamScore = avgExamScore;
+    }
+
+    public Student() {
+
     }
 
     public String getFullName() {
@@ -49,8 +53,8 @@ public class Student {
     public String toString() {
         StringBuilder builder = new StringBuilder();
         builder.append("Студент, полное имя: ").append(fullName).append("; номер университета: ")
-        .append(universityId).append("; текущий курс: ").append(currentCourseNumber)
-        .append("; средняя оценка за экзамен: ").append(avgExamScore);
+                .append(universityId).append("; текущий курс: ").append(currentCourseNumber)
+                .append("; средняя оценка за экзамен: ").append(avgExamScore);
         return builder.toString();
     }
 

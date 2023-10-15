@@ -2,11 +2,11 @@ package org.example;
 
 public class University {
 
-    String id;
-    String fullName;
-    String shortName;
-    int yearOfFoundation;
-    StudyProfile mainProfile;
+    private String id;
+    private String fullName;
+    private String shortName;
+    private int yearOfFoundation;
+    private StudyProfile mainProfile;
 
     public University(String id, String fullName, String shortName, int yearOfFoundation, StudyProfile mainProfile) {
         this.id = id;
@@ -14,6 +14,10 @@ public class University {
         this.shortName = shortName;
         this.yearOfFoundation = yearOfFoundation;
         this.mainProfile = mainProfile;
+    }
+
+    public University() {
+
     }
 
     public String getId() {
@@ -60,7 +64,7 @@ public class University {
         StringBuilder builder = new StringBuilder();
         builder.append("Университет, номер университета: ").append(id).append("; полное название: ")
                 .append(fullName).append("; краткое название: ").append(shortName).append("; год основания: ")
-                .append(yearOfFoundation).append("; основной профиль образования: ")
+                .append(yearOfFoundation).append("; основной профиль обучения: ")
                 .append(mainProfile.getProfileName());
         return builder.toString();
     }

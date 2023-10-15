@@ -1,16 +1,24 @@
 package org.example;
 
+import java.io.IOException;
+import java.util.List;
+
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
-        University rgmu = new University("1", "Российский государственный медицинский университет",
-                "РГМУ", 1906, StudyProfile.MEDICINE);
+        List<University> universities = FileReader.readUniversities("src/main/resources/universityInfo.xlsx");
 
-        Student studentIvanov = new Student("Иванов Иван Иванович", "1",
-                6, 4.5f);
+        for (University university : universities) {
+            System.out.println(university);
+        }
 
-        System.out.println(rgmu);
-        System.out.println(studentIvanov);
+        System.out.println();
+
+        List<Student> students = FileReader.readStudents("src/main/resources/universityInfo.xlsx");
+
+        for (Student student : students) {
+            System.out.println(student);
+        }
   }
 }
