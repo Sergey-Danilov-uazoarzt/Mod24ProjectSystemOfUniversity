@@ -1,5 +1,7 @@
 package org.example;
 
+import org.example.enums.StudyProfile;
+
 public class University {
 
     private String id;
