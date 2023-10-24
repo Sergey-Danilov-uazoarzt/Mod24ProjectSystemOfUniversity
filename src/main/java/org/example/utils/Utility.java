@@ -1,4 +1,4 @@
-package org.example;
+package org.example.utils;
 
 import org.example.comparation.*;
 import org.example.enums.*;

@@ -1,10 +1,19 @@
 package org.example;
 
-public class Student {
+import com.google.gson.annotations.SerializedName;
 
+import java.io.Serializable;
+import java.util.List;
+
+public class Student implements Serializable {
+
+    @SerializedName("Полное имя")
     private String fullName;
+    @SerializedName("Номер университета")
     private String universityId;
+    @SerializedName("Текущий курс")
     private int currentCourseNumber;
+    @SerializedName("Средняя оценка")
     private float avgExamScore;
 
     public Student(String fullName, String universityId, int currentCourseNumber, float avgExamScore) {
