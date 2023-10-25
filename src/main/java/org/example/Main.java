@@ -14,19 +14,9 @@ public class Main {
 
         List<University> universities =
                 FileReader.readUniversities("src/main/resources/universityInfo.xlsx");
-        UniversityComparable universityComparable =
-                Utility.getUniversityComparator(UniversityComparator.YEAR_OF_FOUNDATION_COMPARATOR);
-        universities.stream().sorted(universityComparable);
-
-        System.out.println();
 
         List<Student> students =
                 FileReader.readStudents("src/main/resources/universityInfo.xlsx");
-        StudentComparable studentComparable =
-                Utility.getStudentComparator(StudentComparator.AVG_EXAM_SCORE_COMPARATOR);
-        students.stream().sorted(studentComparable);
-
-        System.out.println();
 
         System.out.println("\nNext output is list of students\n");
         String studentsToJsonSerializer = JsonUtil.studentsToJsonSerializer(students);
