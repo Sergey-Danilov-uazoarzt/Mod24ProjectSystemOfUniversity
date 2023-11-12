@@ -1,12 +1,9 @@
 package org.example;
 
-import java.util.List;
+import org.example.utils.JsonUtil;
+import org.example.utils.StatisticsUtil;
 
-import org.example.comparation.StudentComparable;
-import org.example.comparation.UniversityComparable;
-import org.example.enums.StudentComparator;
-import org.example.enums.UniversityComparator;
-import org.example.utils.*;
+import java.util.List;
 
 public class Main {
 
@@ -63,8 +60,12 @@ public class Main {
         universities.forEach(university -> {
             String universityToJsonSerializer = JsonUtil.universityToJsonSerializer(university);
             System.out.println(universityToJsonSerializer);
-            University universityFromJsonDeserializer = JsonUtil.universityFromJsonDeserializer(universityToJsonSerializer);
+            University universityFromJsonDeserializer =
+                    JsonUtil.universityFromJsonDeserializer(universityToJsonSerializer);
             System.out.println(universityFromJsonDeserializer);
         });
+
+        List<Statistics> statistics = StatisticsUtil.createStatistics(students, universities);
+        XlsWriter.writeStatistics(statistics, "src/main/resources/Statistics.xlsx");
   }
 }
