@@ -1,0 +1,987 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-11-19T20:04:33.061988600Z</date>
+  <millis>1700424273061</millis>
+  <nanos>988600</nanos>
+  <sequence>0</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application started, Logger configured</message>
+</record>
+<record>
+  <date>2023-11-19T20:04:34.485585800Z</date>
+  <millis>1700424274485</millis>
+  <nanos>585800</nanos>
+  <sequence>1</sequence>
+  <logger>org.example.XmlWriter</logger>
+  <level>INFO</level>
+  <class>org.example.XmlWriter</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>XML marshalling started</message>
+</record>
+<record>
+  <date>2023-11-19T20:04:34.490590500Z</date>
+  <millis>1700424274490</millis>
+  <nanos>590500</nanos>
+  <sequence>2</sequence>
+  <logger>org.example.XmlWriter</logger>
+  <level>SEVERE</level>
+  <class>org.example.XmlWriter</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>XML marshalling failed</message>
+  <exception>
+    <message>javax.xml.bind.JAXBException: Implementation of JAXB-API has not been found on module path or classpath.
+ - with linked exception:
+[java.lang.ClassNotFoundException: com.sun.xml.internal.bind.v2.ContextFactory]</message>
+    <frame>
+      <class>javax.xml.bind.ContextFinder</class>
+      <method>newInstance</method>
+      <line>278</line>
+    </frame>
+    <frame>
+      <class>javax.xml.bind.ContextFinder</class>
+      <method>find</method>
+      <line>421</line>
+    </frame>
+    <frame>
+      <class>javax.xml.bind.JAXBContext</class>
+      <method>newInstance</method>
+      <line>721</line>
+    </frame>
+    <frame>
+      <class>javax.xml.bind.JAXBContext</class>
+      <method>newInstance</method>
+      <line>662</line>
+    </frame>
+    <frame>
+      <class>org.example.XmlWriter</class>
+      <method>generateXmlReq</method>
+      <line>26</line>
+    </frame>
+    <frame>
+      <class>org.example.Main</class>
+      <method>main</method>
+      <line>52</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2023-11-19T20:04:34.492592100Z</date>
+  <millis>1700424274492</millis>
+  <nanos>592100</nanos>
+  <sequence>3</sequence>
+  <logger>org.example.JsonWriter</logger>
+  <level>INFO</level>
+  <class>org.example.JsonWriter</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>JSON writing started</message>
+</record>
+<record>
+  <date>2023-11-19T20:04:34.493593300Z</date>
+  <millis>1700424274493</millis>
+  <nanos>593300</nanos>
+  <sequence>4</sequence>
+  <logger>org.example.JsonWriter</logger>
+  <level>INFO</level>
+  <class>org.example.JsonWriter</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>Directory created successfully</message>
+</record>
+<record>
+  <date>2023-11-19T20:04:34.542637800Z</date>
+  <millis>1700424274542</millis>
+  <nanos>637800</nanos>
+  <sequence>5</sequence>
+  <logger>org.example.JsonWriter</logger>
+  <level>INFO</level>
+  <class>org.example.JsonWriter</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>JSON writing finished successfully</message>
+</record>
+<record>
+  <date>2023-11-19T20:04:34.542637800Z</date>
+  <millis>1700424274542</millis>
+  <nanos>637800</nanos>
+  <sequence>6</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application finished</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-11-19T20:08:42.934655Z</date>
+  <millis>1700424522934</millis>
+  <nanos>655000</nanos>
+  <sequence>0</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application started, Logger configured</message>
+</record>
+<record>
+  <date>2023-11-19T20:08:43.925065100Z</date>
+  <millis>1700424523925</millis>
+  <nanos>65100</nanos>
+  <sequence>1</sequence>
+  <logger>org.example.XmlWriter</logger>
+  <level>INFO</level>
+  <class>org.example.XmlWriter</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>XML marshalling started</message>
+</record>
+<record>
+  <date>2023-11-19T20:08:43.932071600Z</date>
+  <millis>1700424523932</millis>
+  <nanos>71600</nanos>
+  <sequence>2</sequence>
+  <logger>org.example.XmlWriter</logger>
+  <level>SEVERE</level>
+  <class>org.example.XmlWriter</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>XML marshalling failed</message>
+  <exception>
+    <message>javax.xml.bind.JAXBException: Implementation of JAXB-API has not been found on module path or classpath.
+ - with linked exception:
+[java.lang.ClassNotFoundException: com.sun.xml.bind.v2.ContextFactory]</message>
+    <frame>
+      <class>javax.xml.bind.ContextFinder</class>
+      <method>newInstance</method>
+      <line>269</line>
+    </frame>
+    <frame>
+      <class>javax.xml.bind.ContextFinder</class>
+      <method>find</method>
+      <line>412</line>
+    </frame>
+    <frame>
+      <class>javax.xml.bind.JAXBContext</class>
+      <method>newInstance</method>
+      <line>721</line>
+    </frame>
+    <frame>
+      <class>javax.xml.bind.JAXBContext</class>
+      <method>newInstance</method>
+      <line>662</line>
+    </frame>
+    <frame>
+      <class>org.example.XmlWriter</class>
+      <method>generateXmlReq</method>
+      <line>26</line>
+    </frame>
+    <frame>
+      <class>org.example.Main</class>
+      <method>main</method>
+      <line>52</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2023-11-19T20:08:43.935073Z</date>
+  <millis>1700424523935</millis>
+  <nanos>73000</nanos>
+  <sequence>3</sequence>
+  <logger>org.example.JsonWriter</logger>
+  <level>INFO</level>
+  <class>org.example.JsonWriter</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>JSON writing started</message>
+</record>
+<record>
+  <date>2023-11-19T20:08:43.988120700Z</date>
+  <millis>1700424523988</millis>
+  <nanos>120700</nanos>
+  <sequence>4</sequence>
+  <logger>org.example.JsonWriter</logger>
+  <level>INFO</level>
+  <class>org.example.JsonWriter</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>JSON writing finished successfully</message>
+</record>
+<record>
+  <date>2023-11-19T20:08:43.989121300Z</date>
+  <millis>1700424523989</millis>
+  <nanos>121300</nanos>
+  <sequence>5</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application finished</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-11-19T20:21:03.442890100Z</date>
+  <millis>1700425263442</millis>
+  <nanos>890100</nanos>
+  <sequence>0</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application started, Logger configured</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-11-19T20:21:54.416406Z</date>
+  <millis>1700425314416</millis>
+  <nanos>406000</nanos>
+  <sequence>0</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application started, Logger configured</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-11-19T20:22:03.691886Z</date>
+  <millis>1700425323691</millis>
+  <nanos>886000</nanos>
+  <sequence>0</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application started, Logger configured</message>
+</record>
+<record>
+  <date>2023-11-19T20:22:04.911996300Z</date>
+  <millis>1700425324911</millis>
+  <nanos>996300</nanos>
+  <sequence>1</sequence>
+  <logger>org.example.XmlWriter</logger>
+  <level>INFO</level>
+  <class>org.example.XmlWriter</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>XML marshalling started</message>
+</record>
+<record>
+  <date>2023-11-19T20:22:04.918001700Z</date>
+  <millis>1700425324918</millis>
+  <nanos>1700</nanos>
+  <sequence>2</sequence>
+  <logger>org.example.XmlWriter</logger>
+  <level>SEVERE</level>
+  <class>org.example.XmlWriter</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>XML marshalling failed</message>
+  <exception>
+    <message>javax.xml.bind.JAXBException: Implementation of JAXB-API has not been found on module path or classpath.
+ - with linked exception:
+[java.lang.ClassNotFoundException: com.sun.xml.bind.v2.ContextFactory]</message>
+    <frame>
+      <class>javax.xml.bind.ContextFinder</class>
+      <method>newInstance</method>
+      <line>269</line>
+    </frame>
+    <frame>
+      <class>javax.xml.bind.ContextFinder</class>
+      <method>find</method>
+      <line>412</line>
+    </frame>
+    <frame>
+      <class>javax.xml.bind.JAXBContext</class>
+      <method>newInstance</method>
+      <line>721</line>
+    </frame>
+    <frame>
+      <class>javax.xml.bind.JAXBContext</class>
+      <method>newInstance</method>
+      <line>662</line>
+    </frame>
+    <frame>
+      <class>org.example.XmlWriter</class>
+      <method>generateXmlReq</method>
+      <line>26</line>
+    </frame>
+    <frame>
+      <class>org.example.Main</class>
+      <method>main</method>
+      <line>52</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2023-11-19T20:22:04.920003500Z</date>
+  <millis>1700425324920</millis>
+  <nanos>3500</nanos>
+  <sequence>3</sequence>
+  <logger>org.example.JsonWriter</logger>
+  <level>INFO</level>
+  <class>org.example.JsonWriter</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>JSON writing started</message>
+</record>
+<record>
+  <date>2023-11-19T20:22:04.965044400Z</date>
+  <millis>1700425324965</millis>
+  <nanos>44400</nanos>
+  <sequence>4</sequence>
+  <logger>org.example.JsonWriter</logger>
+  <level>INFO</level>
+  <class>org.example.JsonWriter</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>JSON writing finished successfully</message>
+</record>
+<record>
+  <date>2023-11-19T20:22:04.965044400Z</date>
+  <millis>1700425324965</millis>
+  <nanos>44400</nanos>
+  <sequence>5</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application finished</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-11-19T20:28:29.948706Z</date>
+  <millis>1700425709948</millis>
+  <nanos>706000</nanos>
+  <sequence>0</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application started, Logger configured</message>
+</record>
+<record>
+  <date>2023-11-19T20:28:31.127778900Z</date>
+  <millis>1700425711127</millis>
+  <nanos>778900</nanos>
+  <sequence>1</sequence>
+  <logger>org.example.XmlWriter</logger>
+  <level>INFO</level>
+  <class>org.example.XmlWriter</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>XML marshalling started</message>
+</record>
+<record>
+  <date>2023-11-19T20:28:31.133784600Z</date>
+  <millis>1700425711133</millis>
+  <nanos>784600</nanos>
+  <sequence>2</sequence>
+  <logger>org.example.XmlWriter</logger>
+  <level>SEVERE</level>
+  <class>org.example.XmlWriter</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>XML marshalling failed</message>
+  <exception>
+    <message>javax.xml.bind.JAXBException: Implementation of JAXB-API has not been found on module path or classpath.
+ - with linked exception:
+[java.lang.ClassNotFoundException: com.sun.xml.bind.v2.ContextFactory]</message>
+    <frame>
+      <class>javax.xml.bind.ContextFinder</class>
+      <method>newInstance</method>
+      <line>269</line>
+    </frame>
+    <frame>
+      <class>javax.xml.bind.ContextFinder</class>
+      <method>find</method>
+      <line>412</line>
+    </frame>
+    <frame>
+      <class>javax.xml.bind.JAXBContext</class>
+      <method>newInstance</method>
+      <line>721</line>
+    </frame>
+    <frame>
+      <class>javax.xml.bind.JAXBContext</class>
+      <method>newInstance</method>
+      <line>662</line>
+    </frame>
+    <frame>
+      <class>org.example.XmlWriter</class>
+      <method>generateXmlReq</method>
+      <line>26</line>
+    </frame>
+    <frame>
+      <class>org.example.Main</class>
+      <method>main</method>
+      <line>52</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2023-11-19T20:28:31.135786100Z</date>
+  <millis>1700425711135</millis>
+  <nanos>786100</nanos>
+  <sequence>3</sequence>
+  <logger>org.example.JsonWriter</logger>
+  <level>INFO</level>
+  <class>org.example.JsonWriter</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>JSON writing started</message>
+</record>
+<record>
+  <date>2023-11-19T20:28:31.179826300Z</date>
+  <millis>1700425711179</millis>
+  <nanos>826300</nanos>
+  <sequence>4</sequence>
+  <logger>org.example.JsonWriter</logger>
+  <level>INFO</level>
+  <class>org.example.JsonWriter</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>JSON writing finished successfully</message>
+</record>
+<record>
+  <date>2023-11-19T20:28:31.179826300Z</date>
+  <millis>1700425711179</millis>
+  <nanos>826300</nanos>
+  <sequence>5</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application finished</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-11-19T20:30:33.142185700Z</date>
+  <millis>1700425833142</millis>
+  <nanos>185700</nanos>
+  <sequence>0</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application started, Logger configured</message>
+</record>
+<record>
+  <date>2023-11-19T20:30:34.313250200Z</date>
+  <millis>1700425834313</millis>
+  <nanos>250200</nanos>
+  <sequence>1</sequence>
+  <logger>org.example.XmlWriter</logger>
+  <level>INFO</level>
+  <class>org.example.XmlWriter</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>XML marshalling started</message>
+</record>
+<record>
+  <date>2023-11-19T20:30:34.319255800Z</date>
+  <millis>1700425834319</millis>
+  <nanos>255800</nanos>
+  <sequence>2</sequence>
+  <logger>org.example.XmlWriter</logger>
+  <level>SEVERE</level>
+  <class>org.example.XmlWriter</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>XML marshalling failed</message>
+  <exception>
+    <message>javax.xml.bind.JAXBException: Implementation of JAXB-API has not been found on module path or classpath.
+ - with linked exception:
+[java.lang.ClassNotFoundException: com.sun.xml.bind.v2.ContextFactory]</message>
+    <frame>
+      <class>javax.xml.bind.ContextFinder</class>
+      <method>newInstance</method>
+      <line>269</line>
+    </frame>
+    <frame>
+      <class>javax.xml.bind.ContextFinder</class>
+      <method>find</method>
+      <line>412</line>
+    </frame>
+    <frame>
+      <class>javax.xml.bind.JAXBContext</class>
+      <method>newInstance</method>
+      <line>721</line>
+    </frame>
+    <frame>
+      <class>javax.xml.bind.JAXBContext</class>
+      <method>newInstance</method>
+      <line>662</line>
+    </frame>
+    <frame>
+      <class>org.example.XmlWriter</class>
+      <method>generateXmlReq</method>
+      <line>26</line>
+    </frame>
+    <frame>
+      <class>org.example.Main</class>
+      <method>main</method>
+      <line>52</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2023-11-19T20:30:34.321257600Z</date>
+  <millis>1700425834321</millis>
+  <nanos>257600</nanos>
+  <sequence>3</sequence>
+  <logger>org.example.JsonWriter</logger>
+  <level>INFO</level>
+  <class>org.example.JsonWriter</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>JSON writing started</message>
+</record>
+<record>
+  <date>2023-11-19T20:30:34.365297500Z</date>
+  <millis>1700425834365</millis>
+  <nanos>297500</nanos>
+  <sequence>4</sequence>
+  <logger>org.example.JsonWriter</logger>
+  <level>INFO</level>
+  <class>org.example.JsonWriter</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>JSON writing finished successfully</message>
+</record>
+<record>
+  <date>2023-11-19T20:30:34.365297500Z</date>
+  <millis>1700425834365</millis>
+  <nanos>297500</nanos>
+  <sequence>5</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application finished</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-11-19T20:33:46.714074100Z</date>
+  <millis>1700426026714</millis>
+  <nanos>74100</nanos>
+  <sequence>0</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application started, Logger configured</message>
+</record>
+<record>
+  <date>2023-11-19T20:33:47.932182300Z</date>
+  <millis>1700426027932</millis>
+  <nanos>182300</nanos>
+  <sequence>1</sequence>
+  <logger>org.example.XmlWriter</logger>
+  <level>INFO</level>
+  <class>org.example.XmlWriter</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>XML marshalling started</message>
+</record>
+<record>
+  <date>2023-11-19T20:33:47.937187500Z</date>
+  <millis>1700426027937</millis>
+  <nanos>187500</nanos>
+  <sequence>2</sequence>
+  <logger>org.example.XmlWriter</logger>
+  <level>SEVERE</level>
+  <class>org.example.XmlWriter</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>XML marshalling failed</message>
+  <exception>
+    <message>javax.xml.bind.JAXBException: Implementation of JAXB-API has not been found on module path or classpath.
+ - with linked exception:
+[java.lang.ClassNotFoundException: com.sun.xml.bind.v2.ContextFactory]</message>
+    <frame>
+      <class>javax.xml.bind.ContextFinder</class>
+      <method>newInstance</method>
+      <line>269</line>
+    </frame>
+    <frame>
+      <class>javax.xml.bind.ContextFinder</class>
+      <method>find</method>
+      <line>412</line>
+    </frame>
+    <frame>
+      <class>javax.xml.bind.JAXBContext</class>
+      <method>newInstance</method>
+      <line>721</line>
+    </frame>
+    <frame>
+      <class>javax.xml.bind.JAXBContext</class>
+      <method>newInstance</method>
+      <line>662</line>
+    </frame>
+    <frame>
+      <class>org.example.XmlWriter</class>
+      <method>generateXmlReq</method>
+      <line>26</line>
+    </frame>
+    <frame>
+      <class>org.example.Main</class>
+      <method>main</method>
+      <line>52</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2023-11-19T20:33:47.939188500Z</date>
+  <millis>1700426027939</millis>
+  <nanos>188500</nanos>
+  <sequence>3</sequence>
+  <logger>org.example.JsonWriter</logger>
+  <level>INFO</level>
+  <class>org.example.JsonWriter</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>JSON writing started</message>
+</record>
+<record>
+  <date>2023-11-19T20:33:48.022264400Z</date>
+  <millis>1700426028022</millis>
+  <nanos>264400</nanos>
+  <sequence>4</sequence>
+  <logger>org.example.JsonWriter</logger>
+  <level>INFO</level>
+  <class>org.example.JsonWriter</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>JSON writing finished successfully</message>
+</record>
+<record>
+  <date>2023-11-19T20:33:48.023265100Z</date>
+  <millis>1700426028023</millis>
+  <nanos>265100</nanos>
+  <sequence>5</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application finished</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-11-19T20:35:07.291115700Z</date>
+  <millis>1700426107291</millis>
+  <nanos>115700</nanos>
+  <sequence>0</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application started, Logger configured</message>
+</record>
+<record>
+  <date>2023-11-19T20:35:08.528241800Z</date>
+  <millis>1700426108528</millis>
+  <nanos>241800</nanos>
+  <sequence>1</sequence>
+  <logger>org.example.XmlWriter</logger>
+  <level>INFO</level>
+  <class>org.example.XmlWriter</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>XML marshalling started</message>
+</record>
+<record>
+  <date>2023-11-19T20:35:08.533245400Z</date>
+  <millis>1700426108533</millis>
+  <nanos>245400</nanos>
+  <sequence>2</sequence>
+  <logger>org.example.XmlWriter</logger>
+  <level>SEVERE</level>
+  <class>org.example.XmlWriter</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>XML marshalling failed</message>
+  <exception>
+    <message>javax.xml.bind.JAXBException: Implementation of JAXB-API has not been found on module path or classpath.
+ - with linked exception:
+[java.lang.ClassNotFoundException: com.sun.xml.bind.v2.ContextFactory]</message>
+    <frame>
+      <class>javax.xml.bind.ContextFinder</class>
+      <method>newInstance</method>
+      <line>269</line>
+    </frame>
+    <frame>
+      <class>javax.xml.bind.ContextFinder</class>
+      <method>find</method>
+      <line>412</line>
+    </frame>
+    <frame>
+      <class>javax.xml.bind.JAXBContext</class>
+      <method>newInstance</method>
+      <line>721</line>
+    </frame>
+    <frame>
+      <class>javax.xml.bind.JAXBContext</class>
+      <method>newInstance</method>
+      <line>662</line>
+    </frame>
+    <frame>
+      <class>org.example.XmlWriter</class>
+      <method>generateXmlReq</method>
+      <line>26</line>
+    </frame>
+    <frame>
+      <class>org.example.Main</class>
+      <method>main</method>
+      <line>52</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2023-11-19T20:35:08.535247500Z</date>
+  <millis>1700426108535</millis>
+  <nanos>247500</nanos>
+  <sequence>3</sequence>
+  <logger>org.example.JsonWriter</logger>
+  <level>INFO</level>
+  <class>org.example.JsonWriter</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>JSON writing started</message>
+</record>
+<record>
+  <date>2023-11-19T20:35:08.581290Z</date>
+  <millis>1700426108581</millis>
+  <nanos>290000</nanos>
+  <sequence>4</sequence>
+  <logger>org.example.JsonWriter</logger>
+  <level>INFO</level>
+  <class>org.example.JsonWriter</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>JSON writing finished successfully</message>
+</record>
+<record>
+  <date>2023-11-19T20:35:08.582290800Z</date>
+  <millis>1700426108582</millis>
+  <nanos>290800</nanos>
+  <sequence>5</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application finished</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-11-20T00:02:55</date>
+  <millis>1700427775565</millis>
+  <sequence>0</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application started, Logger configured</message>
+</record>
+<record>
+  <date>2023-11-20T00:02:56</date>
+  <millis>1700427776453</millis>
+  <sequence>1</sequence>
+  <logger>org.example.XmlWriter</logger>
+  <level>INFO</level>
+  <class>org.example.XmlWriter</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>XML marshalling started</message>
+</record>
+<record>
+  <date>2023-11-20T00:02:56</date>
+  <millis>1700427776533</millis>
+  <sequence>2</sequence>
+  <logger>org.example.XmlWriter</logger>
+  <level>INFO</level>
+  <class>org.example.XmlWriter</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>Directory created successfully</message>
+</record>
+<record>
+  <date>2023-11-20T00:02:56</date>
+  <millis>1700427776537</millis>
+  <sequence>3</sequence>
+  <logger>org.example.XmlWriter</logger>
+  <level>INFO</level>
+  <class>org.example.XmlWriter</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>XML marshalling finished successfully</message>
+</record>
+<record>
+  <date>2023-11-20T00:02:56</date>
+  <millis>1700427776538</millis>
+  <sequence>4</sequence>
+  <logger>org.example.JsonWriter</logger>
+  <level>INFO</level>
+  <class>org.example.JsonWriter</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>JSON writing started</message>
+</record>
+<record>
+  <date>2023-11-20T00:02:56</date>
+  <millis>1700427776576</millis>
+  <sequence>5</sequence>
+  <logger>org.example.JsonWriter</logger>
+  <level>INFO</level>
+  <class>org.example.JsonWriter</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>JSON writing finished successfully</message>
+</record>
+<record>
+  <date>2023-11-20T00:02:56</date>
+  <millis>1700427776577</millis>
+  <sequence>6</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application finished</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-11-20T00:04:32</date>
+  <millis>1700427872766</millis>
+  <sequence>0</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application started, Logger configured</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-11-20T00:05:01</date>
+  <millis>1700427901999</millis>
+  <sequence>0</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application started, Logger configured</message>
+</record>
+<record>
+  <date>2023-11-20T00:05:02</date>
+  <millis>1700427902954</millis>
+  <sequence>1</sequence>
+  <logger>org.example.XmlWriter</logger>
+  <level>INFO</level>
+  <class>org.example.XmlWriter</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>XML marshalling started</message>
+</record>
+<record>
+  <date>2023-11-20T00:05:03</date>
+  <millis>1700427903019</millis>
+  <sequence>2</sequence>
+  <logger>org.example.XmlWriter</logger>
+  <level>INFO</level>
+  <class>org.example.XmlWriter</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>XML marshalling finished successfully</message>
+</record>
+<record>
+  <date>2023-11-20T00:05:03</date>
+  <millis>1700427903020</millis>
+  <sequence>3</sequence>
+  <logger>org.example.JsonWriter</logger>
+  <level>INFO</level>
+  <class>org.example.JsonWriter</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>JSON writing started</message>
+</record>
+<record>
+  <date>2023-11-20T00:05:03</date>
+  <millis>1700427903057</millis>
+  <sequence>4</sequence>
+  <logger>org.example.JsonWriter</logger>
+  <level>INFO</level>
+  <class>org.example.JsonWriter</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>JSON writing finished successfully</message>
+</record>
+<record>
+  <date>2023-11-20T00:05:03</date>
+  <millis>1700427903057</millis>
+  <sequence>5</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application finished</message>
+</record>
+</log>
