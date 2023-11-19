@@ -61,4 +61,8 @@ public class JsonUtil {
         Gson gson = new Gson();
         return gson.fromJson(json, new TypeToken<List<University>>(){}.getType());
     }
+
+    public static String writeListToJson(List<?> list) {
+        return new GsonBuilder().setPrettyPrinting().create().toJson(list);
+    }
 }
