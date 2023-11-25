@@ -10,8 +10,12 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class FileReader {
+
+    private static final Logger logger = Logger.getLogger(FileReader.class.getName());
 
     private FileReader() {
     }
@@ -21,6 +25,8 @@ public class FileReader {
         List<University> universities = new ArrayList<>();
 
         try {
+            logger.log(Level.INFO, "Excel reading started");
+
             FileInputStream inputStream = new FileInputStream(filePath);
             XSSFWorkbook workbook = new XSSFWorkbook(inputStream);
             XSSFSheet sheet = workbook.getSheet("Университеты");
@@ -39,9 +45,11 @@ public class FileReader {
                         StudyProfile.class, currentRow.getCell(4).getStringCellValue()));
             }
         } catch (IOException e) {
-            System.out.println("Файл не найден");
+            logger.log(Level.SEVERE, "Excel reading failed", e);
+            return universities;
         }
 
+        logger.log(Level.INFO, "Excel reading finished successfully");
         return universities;
     }
 
@@ -50,6 +58,8 @@ public class FileReader {
         List<Student> students = new ArrayList<>();
 
         try {
+            logger.log(Level.INFO, "Excel reading started");
+
             FileInputStream inputStream = new FileInputStream(filePath);
             XSSFWorkbook workbook = new XSSFWorkbook(inputStream);
             XSSFSheet sheet = workbook.getSheet("Студенты");
@@ -67,9 +77,11 @@ public class FileReader {
                 student.setAvgExamScore((float)currentRow.getCell(3).getNumericCellValue());
             }
         } catch (IOException e) {
-            System.out.println("Файл не найден");
+            logger.log(Level.SEVERE, "Excel reading failed", e);
+            return students;
         }
 
+        logger.log(Level.INFO, "Excel reading finished successfully");
         return students;
     }
 }

@@ -985,3 +985,161 @@
   <message>Application finished</message>
 </record>
 </log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-11-26T00:53:27</date>
+  <millis>1700949207640</millis>
+  <sequence>0</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application started, Logger configured</message>
+</record>
+<record>
+  <date>2023-11-26T00:53:27</date>
+  <millis>1700949207685</millis>
+  <sequence>1</sequence>
+  <logger>org.example.FileReader</logger>
+  <level>INFO</level>
+  <class>org.example.FileReader</class>
+  <method>readUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2023-11-26T00:53:28</date>
+  <millis>1700949208542</millis>
+  <sequence>2</sequence>
+  <logger>org.example.FileReader</logger>
+  <level>INFO</level>
+  <class>org.example.FileReader</class>
+  <method>readUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading finished successfully</message>
+</record>
+<record>
+  <date>2023-11-26T00:53:28</date>
+  <millis>1700949208545</millis>
+  <sequence>3</sequence>
+  <logger>org.example.FileReader</logger>
+  <level>INFO</level>
+  <class>org.example.FileReader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2023-11-26T00:53:28</date>
+  <millis>1700949208583</millis>
+  <sequence>4</sequence>
+  <logger>org.example.FileReader</logger>
+  <level>INFO</level>
+  <class>org.example.FileReader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Excel reading finished successfully</message>
+</record>
+<record>
+  <date>2023-11-26T00:53:28</date>
+  <millis>1700949208585</millis>
+  <sequence>5</sequence>
+  <logger>org.example.utils.StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>org.example.utils.StatisticsUtil</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics module started</message>
+</record>
+<record>
+  <date>2023-11-26T00:53:28</date>
+  <millis>1700949208592</millis>
+  <sequence>6</sequence>
+  <logger>org.example.utils.StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>org.example.utils.StatisticsUtil</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics module finished with 4 statistical objects</message>
+</record>
+<record>
+  <date>2023-11-26T00:53:28</date>
+  <millis>1700949208593</millis>
+  <sequence>7</sequence>
+  <logger>org.example.XlsWriter</logger>
+  <level>INFO</level>
+  <class>org.example.XlsWriter</class>
+  <method>writeStatistics</method>
+  <thread>1</thread>
+  <message>Excel writing started</message>
+</record>
+<record>
+  <date>2023-11-26T00:53:28</date>
+  <millis>1700949208734</millis>
+  <sequence>8</sequence>
+  <logger>org.example.XlsWriter</logger>
+  <level>INFO</level>
+  <class>org.example.XlsWriter</class>
+  <method>writeStatistics</method>
+  <thread>1</thread>
+  <message>Excel writing finished successfully</message>
+</record>
+<record>
+  <date>2023-11-26T00:53:28</date>
+  <millis>1700949208735</millis>
+  <sequence>9</sequence>
+  <logger>org.example.XmlWriter</logger>
+  <level>INFO</level>
+  <class>org.example.XmlWriter</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>XML marshalling started</message>
+</record>
+<record>
+  <date>2023-11-26T00:53:28</date>
+  <millis>1700949208838</millis>
+  <sequence>10</sequence>
+  <logger>org.example.XmlWriter</logger>
+  <level>INFO</level>
+  <class>org.example.XmlWriter</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>XML marshalling finished successfully</message>
+</record>
+<record>
+  <date>2023-11-26T00:53:28</date>
+  <millis>1700949208865</millis>
+  <sequence>11</sequence>
+  <logger>org.example.JsonWriter</logger>
+  <level>INFO</level>
+  <class>org.example.JsonWriter</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>JSON writing started</message>
+</record>
+<record>
+  <date>2023-11-26T00:53:28</date>
+  <millis>1700949208904</millis>
+  <sequence>12</sequence>
+  <logger>org.example.JsonWriter</logger>
+  <level>INFO</level>
+  <class>org.example.JsonWriter</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>JSON writing finished successfully</message>
+</record>
+<record>
+  <date>2023-11-26T00:53:28</date>
+  <millis>1700949208904</millis>
+  <sequence>13</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application finished</message>
+</record>
+</log>

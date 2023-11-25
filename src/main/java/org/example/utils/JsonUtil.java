@@ -14,54 +14,6 @@ public class JsonUtil {
 
     }
 
-    public static String studentToJsonSerializer(Student student) {
-
-        Gson gson = new GsonBuilder().setPrettyPrinting().create();
-        return gson.toJson(student);
-    }
-
-    public static String universityToJsonSerializer(University university) {
-
-        Gson gson = new GsonBuilder().setPrettyPrinting().create();
-        return gson.toJson(university);
-    }
-
-    public static String studentsToJsonSerializer(List<Student> students) {
-
-        Gson gson = new GsonBuilder().setPrettyPrinting().create();
-        return gson.toJson(students);
-    }
-
-    public static String universitiesToJsonSerializer(List<University> universities) {
-
-        Gson gson = new GsonBuilder().setPrettyPrinting().create();
-        return gson.toJson(universities);
-    }
-
-    public static Student studentFromJsonDeserializer(String json) {
-
-        Gson gson = new Gson();
-        return gson.fromJson(json, Student.class);
-    }
-
-    public static University universityFromJsonDeserializer(String json) {
-
-        Gson gson = new Gson();
-        return gson.fromJson(json, University.class);
-    }
-
-    public static List<Student> studentsFromJsonDeserializer(String json) {
-
-        Gson gson = new Gson();
-        return gson.fromJson(json, new TypeToken<List<Student>>(){}.getType());
-    }
-
-    public static List<University> universitiesFromJsonDeserializer(String json) {
-
-        Gson gson = new Gson();
-        return gson.fromJson(json, new TypeToken<List<University>>(){}.getType());
-    }
-
     public static String writeListToJson(List<?> list) {
         return new GsonBuilder().setPrettyPrinting().create().toJson(list);
     }
